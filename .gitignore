@@ -1,0 +1,37 @@
+node_modules/
+dist/
+.env
+
+# Respaldos de base de datos
+*.sql
+backups/
+backups_sales/
+backup_facturacion_*/
+
+# Facturas generadas durante pruebas
+public/facturas/*.pdf
+public/facturas/*.xml
+public/facturas/pdf/
+public/facturas/xml/
+
+# Archivos temporales
+*.log
+
+# Copias de seguridad de código
+*.backup-*
+*.zip
+
+# Archivos temporales/residuos locales
+0
+main
+readme
+
+# Archivos del antiguo frontend Vite
+App.css
+index.html
+vite.config.js
+vite.config.ts
+eslint.config.js
+tsconfig.app.json
+tsconfig.node.json
+requirements.txt
